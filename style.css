@@ -1,0 +1,125 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: hsl(217, 54%, 11%);
+}
+
+
+.card{
+	
+	width: 20%;
+	margin-top: 10%;
+	margin-left: 40%;
+	background-color: hsl(216, 50%, 16%);
+	padding: 18px;
+	border-radius: 10px;
+}
+
+
+.card-img img{
+	width: 100%;
+}
+
+.card-img img:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+.header {
+	color: white;
+	font-weight: bold;
+
+}
+
+.header:hover{
+	cursor: pointer;
+}
+
+.title{
+	color: hsl(215, 51%, 70%)
+
+
+}
+
+.subContent {
+	width: 100%;
+	display: inline-flex;
+	color: white;
+}
+
+.content1 {
+	display: inline-flex;
+	margin-left: 2px;
+}
+.content2{
+	display: inline-flex;
+	margin-left: 2px;
+	margin-left: 40%;
+}
+
+.footer {
+	display: inline-flex;
+}
+.footer  img {
+	width: 18%;
+}
+
+.footer p {
+	color: hsl(215, 51%, 70%);
+	margin-left: 10%;
+
+}
+
+.footer p:hover{
+	cursor: pointer;
+}
+
+.footer span {
+	color: white;
+}
+
+.footer span:hover{
+	cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+
+
+.card{
+	
+	width: 50%;
+	margin-top: 50%;
+	margin-left: 25%;
+	background-color: hsl(216, 50%, 16%);
+	padding: 18px;
+	border-radius: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 360px) {
+ .card{
+	width: 70%;
+	margin-top: 10%;
+	margin-left: 10%;
+	background-color: hsl(216, 50%, 16%);
+	padding: 18px;
+	border-radius: 10px;
+}
+
+
+.content2{
+	display: inline-flex;
+	margin-left: 2px;
+	margin-left: 20%;
+}
+
+.footer  img {
+	width: 10%;
+
+}
+
+}
+
